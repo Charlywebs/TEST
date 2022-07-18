@@ -1,0 +1,92 @@
+body {
+    background-color: lightcyan;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: coral;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+h1 {
+    text-align: left;
+}
+
+p {
+    background-color: lightblue;
+    padding: 100px;
+    
+}
+
+article {
+    display: center;
+}
+
+h2 {
+    
+    display: center;
+    background-color:lightgray;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+form {
+    background-color: lightsalmon;
+    margin: 50px;
+    padding: 25px;
+}
+
+.submit {
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.submit:hover {
+    border-color: blue;
+    text-decoration-color: aquamarine;
+    background-color: lightgreen;
+}
+
+.video {
+    text-align: center;
+}
+
+.audio {
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+footer {
+    font-weight: bold;
+    padding: auto;
+}
+
+
+
