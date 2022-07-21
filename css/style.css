@@ -98,20 +98,15 @@ footer {
        
 }
 
-a.fa-brands {
-    padding: 30px;
-    color: blue;
-    text-decoration: none;
-    font-size: 3rem;
+.fa-brands {
+    height: 10vh;
+    padding: 20px;
+        
 }
 .fa-brands:hover {
-    padding: 10px;
+    padding: 15px;
     background-color: salmon;
-    border-radius: 80%;
-    transform: scale(1.5);
-   
-   
-    
+    border-radius: 85%;
 }
 
 h4{
