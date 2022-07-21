@@ -95,14 +95,17 @@ footer {
     height: 10vh;
     text-align: center;
     align-items: center;
-       
+}
+
+.footeritems {
+    background-color: grey; 
 }
 
 .fa-brands {
     height: 10vh;
     padding: 20px;
-        
 }
+
 .fa-brands:hover {
     padding: 15px;
     background-color: salmon;
