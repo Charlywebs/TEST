@@ -79,13 +79,45 @@ form {
 
 .audio {
     text-align: center;
-    margin-top: 100px;
-    
+    margin-top: 40px;
+       
+}
+
+.audiodisplay {
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 footer {
+    border-top: 1px solid blueviolet;
     font-weight: bold;
-    padding: auto;
+    width: 97vw;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+       
+}
+
+a.fa-brands {
+    padding: 30px;
+    color: blue;
+    text-decoration: none;
+    font-size: 3rem;
+}
+.fa-brands:hover {
+    padding: 10px;
+    background-color: salmon;
+    border-radius: 80%;
+    transform: scale(1.5);
+   
+   
+    
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
 }
 
 
