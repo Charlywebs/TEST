@@ -56,6 +56,27 @@ h2 {
     
 }
 
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+	gap: 10px;
+    background-color: lightblue;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.griditems {
+    border-radius: 10px;
+	max-height: 350px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
 form {
     background-color: lightsalmon;
     margin: 50px;
@@ -118,5 +139,17 @@ h4{
     font-size: 1.2rem;
 }
 
+/* media queries */
 
+@media only screen and (min-width: 769px) {
+	
+}
+
+@media only screen and (max-width: 768px) {
+	
+}
+
+@media only screen and (max-width: 576px) {
+
+}
 
