@@ -43,6 +43,13 @@ p {
     
 }
 
+p::first-letter {
+    font-size: xx-large;
+    font-weight: 800;
+    color: red;
+    
+}
+
 article {
     display: center;
 }
