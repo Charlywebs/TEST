@@ -2,13 +2,25 @@ body {
     background-color: lightcyan;
 }
 
-header {
+* {
+    box-sizing: border-box;
+}
+.header-logo {
+    background-color: coral;
+    
+}
+
+.header {
     display: flex;
     min-height: 70px;
-    background-color: coral;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+}
+.paginas{
+    display: flex;
+    justify-content: end;
+    
 }
 
 .logo {
@@ -53,16 +65,47 @@ p::first-letter {
 article {
     display: center;
 }
+.cuerpo {
+    align-items: center;
+}
 
 h2 {
     
-    display: center;
     background-color:lightgray;
     padding: 20px;
     text-align: center;
     
 }
 /* GRID CONTAINER */
+.grid-container{
+    text-align: center;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 2fr 200px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+    ;
+
+    gap: .5em .4em;
+}
+
+.header-logo{
+    grid-area: header;
+    
+}
+
+.cuerpo{
+    grid-area: main;
+    
+}
+
+.footerpag{
+    grid-area: footer;
+    
+}
 
 .gridcontainer {
     display: grid;
@@ -132,8 +175,7 @@ form {
 footer {
     border-top: 1px solid blueviolet;
     font-weight: bold;
-    width: 97vw;
-    height: 10vh;
+    
     text-align: center;
     align-items: center;
 }
@@ -170,6 +212,15 @@ h4{
 }
 
 @media only screen and (max-width: 576px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
+        ;
+    }
 
 }
 
